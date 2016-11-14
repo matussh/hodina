@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <time.h>
-int *Generator(int n):
+int *Generator(int n);
 int main(){
     int n=15;
     int *p=Generator(n);
